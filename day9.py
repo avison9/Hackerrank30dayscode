@@ -15,11 +15,11 @@
 data = int(input())
 dect = dict()
 
-for j in range(0, data):
+for _ in range(0, data):
     name,number = input().split()
     dect[name] = number
 
-for k in range (0, data):
+for _ in range (0, data):
     name = input()
     if name in dect:
         print("{}={}".format(name, dect[name]))
